@@ -1,0 +1,331 @@
+    .homepage {
+        background-color: darkcyan;
+        padding: 25px;
+
+        
+        /* background-image: url(project4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll; */
+        
+    }
+
+    .home {
+        background-color: black;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .home>h2 {
+        padding: 8px;
+        color: aquamarine;
+        text-shadow: 0 0 5px blue,
+            0 0 25px blue,
+            0 0 50px blue,
+            0 0 100px blue;
+    }
+
+    .home>h2:hover {
+        color: white;
+    }
+
+    .main-menu {
+        background-color: cornflowerblue;
+        text-align: center;
+        float: right;
+        margin-left:1000px ;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        margin-right: 10px;
+    }
+
+    .main-menu>ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+    .main-menu>ul>li {
+        display: inline-block;
+    }
+
+    .main-menu>ul>li>a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        display: block;
+    }
+
+    .drop {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0PX;
+        position: absolute;
+        display: none;
+    }
+
+    .drop>li>a {
+        color: white;
+        text-decoration: none;
+        font-size: larger;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        line-height: 6rem;
+        display: block;
+        background-color: cornflowerblue;
+    }
+
+    .drop>li>a:hover {
+        background-color: black;
+    }
+
+    /* see carefully */
+    .main-menu>ul>li:hover .drop {
+        display: block;
+    }
+
+    .content {
+        float: left;
+        padding-top: 50px;
+    }
+
+    /* image */
+
+.image {
+    width: 450px;
+    height: 450px;
+    float: right;
+    margin: 25px 25px 0px 25px;
+    padding: 25px;
+}
+
+.image>a>img {
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin: 25px;
+    padding: 25px;
+}
+
+.content>p {
+        color: black;
+        margin: 2px;
+        padding: 10px;
+        font-size: 2.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        line-height: rem;
+}
+
+    .content>p>span:hover {
+        color: white;
+        text-shadow: 0 0 5px black,
+            0 0 25px black,
+            0 0 50px black,
+            0 0 100px black;
+    }
+
+    .line {
+        color: black;
+        margin: 2px;
+        padding: 2px;
+        font-size: 2.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .Line {
+        color: black;
+        margin: 2px;
+        padding: 2px;
+        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        line-height: 1.5em;
+    }
+
+    .images {
+        width: 200px;
+        height: 200px;
+        margin: 10px 25px;
+    }
+
+    .Lines {
+        color: black;
+        margin: 0px 20px;
+        padding: 20px;
+        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        line-height: 1.5em;
+        width: 970px;
+        text-align: justify;
+    }
+
+    .Lines>h2 {
+        color: white;
+        width: 211px;
+    }
+
+    .Lines>h2:hover {
+        color: black;
+        text-shadow: 0 0 5px darkblue,
+            0 0 25px darkblue,
+            0 0 50px darkblue,
+            0 0 100px darkblue;
+    }
+
+
+    .lent {
+        color: black;
+        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        line-height: 1.5em;
+        margin: 0px 20px;
+        padding: 20px;
+    }
+
+.grid-container {
+    color: black;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0px 20px;
+    padding: 20px;
+}
+
+.grid-container > li {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3, 1f);
+}
+
+
+
+    /* works page */
+
+    .projects {
+        margin-top: 100px;
+        margin-left: 100px;
+        padding-top: 70px;
+        display: grid;
+        grid-gap: 0.7rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects img {
+        width: 330px;
+        border: 5px black solid;
+    }
+
+    .projects img:hover {
+        opacity: 0.5;
+        border-color: white;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btn-dark {
+        display: block;
+        padding: 0.5rem 1rem;
+        border: 2px;
+        margin-bottom: 0.3rem;
+    }
+
+    .btn-dark:hover {
+        background: white;
+        color: #000;
+    }
+
+    .btn-dark {
+        background: black;
+        color: #fff;
+        text-align: center;
+        width: 308px;
+        border: 3px black solid;
+    }
+
+/* maps */
+
+.hah > iframe{
+    padding: 20px;
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* contact */
+
+.input-group{
+    float: left;
+    background-color: transparent;
+    display: grid;
+    margin: 20px;
+    width: 0%;
+}
+
+.input{
+    float: left;
+    padding: 10px;
+    border: 2px;
+    font: bold;
+    color: #fff;
+    background-color: transparent;
+    outline: 2px solid black;
+}
+
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+}
+
+.input:focus+.input-label,
+.input:valid+.input-label {
+    transform: translate(10px, -14px) scale(.8);
+    color: #d1c5fc;
+    padding-inline: 5px;
+    background-color: darkcyan;
+}
+
+.input:is(:focus, :valid) {
+    outline-color: #d1c5fc;
+}
+
+.clearfix{
+    clear: both;
+}
+
+    /* footer */
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    color: aquamarine;
+    line-height: 4em;
+    padding: 5px;
+}
+
+.footer>p{
+    text-align: end;
+    padding: 0px;
+}
+
+
+.footer>a>img {
+    width: 50px;
+    height: 50px;
+}
+
+.clearfix{
+    clear: both;
+}
